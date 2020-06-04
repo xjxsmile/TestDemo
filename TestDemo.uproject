@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{DA1B2E5E-4C7F-68E0-8618-F780911FC922}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "TestDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG",
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	]
+}
