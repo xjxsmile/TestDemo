@@ -22,6 +22,7 @@ ACustomeConfigActor::ACustomeConfigActor()
 // Called when the game starts or when spawned
 void ACustomeConfigActor::BeginPlay()
 {
+//aaaaaa
 	Super::BeginPlay();
 	LoadConfig();
 }
