@@ -22,7 +22,10 @@ ACustomeConfigActor::ACustomeConfigActor()
 // Called when the game starts or when spawned
 void ACustomeConfigActor::BeginPlay()
 {
-//aaaaaa
+//aaaaaa   bbbbb
+/*
+	chuan
+*/
 	Super::BeginPlay();
 	LoadConfig();
 }
@@ -33,6 +36,10 @@ void ACustomeConfigActor::AddValueFloat(float _va)
 	SaveConfig();
 }
 
+
+/*
+	gggg
+*/
 // Called every frame
 void ACustomeConfigActor::Tick(float DeltaTime)
 {
